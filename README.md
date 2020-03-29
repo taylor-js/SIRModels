@@ -1,4 +1,4 @@
-# SIRModels
+# SIR Models
 
 Compartmental modeling has been a subject of interest since the early 1900s. Among the ﬁrst to mathematically model the spread of epidemics in the early twentieth century were William Hamer and Ronald Ross. They achieved this by using the law of mass action by which they explained the epidemic behavior of disease. In the study of epidemiology, compartmental models are used to predict how infectious diseases spread throughout a population.
 
