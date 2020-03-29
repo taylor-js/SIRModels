@@ -27,7 +27,7 @@ Logically, it also makes sense that the combined change must equal 0, as the pop
 
 </p>
 The next logical step would be to conclude that the summation of each part, S(t), I(t), and R(t), must be equal to the total population (which will be expressed as the constant N), which is shown below:
-<br>
+<br/><br/>
 <p align="center">
 <img src="https://tex.cheminfo.org/?tex=%5Cbegin%7Baligned%7D%0AS(t)%2BI(t)%2BR(t)%3DN~%5Ctext%7Bwhere%7D~N~%5Ctext%7Bis%20constant%7D%0A%5Cend%7Baligned%7D%0A"/>
 </p>
