@@ -9,12 +9,12 @@ ND=70
 TS=1.0
 INPUT = (1.0-I0, I0)
 
-def diff_eqs(INP,t):  
+def diff_eqs(x,t):  
 	'''The main set of equations'''
 	Y=np.zeros((2))
-	V = INP    
-	Y[0] = - beta * V[0] * V[1] + gamma * V[1]
-	Y[1] = beta * V[0] * V[1] - gamma * V[1]
+	X = x    
+	Y[0] = - beta * X[0] * X[1] + gamma * X[1]
+	Y[1] = beta * X[0] * X[1] - gamma * X[1]
 	return Y   # For odeint
 
 
