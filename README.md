@@ -17,7 +17,5 @@ The models allow the companies to see how much they would have to pay out to fam
 * Importantly, in order to understand the relationship between these variables, we must understand that a susceptible individual may only move from the susceptible group to the infected group. From here, the infected group may only move to the removed group. This means that the change in susceptible individuals over time must be based entirely on the negative change in the number of infected individuals. This is phenomenon is displayed in the equations below.
 * The number of infected individuals, on the other hand, would grow with the number of susceptible individuals, which would then lose members to the removed category. Lastly, the removed category will grow in some relationship with the number of infected individuals. These relationships are shown below:
 <p align="center">
-<img src="https://render.githubusercontent.com/render/math?math=\dfrac{dS}{dt}=-\alpha SI"><br/>
-<img src="https://render.githubusercontent.com/render/math?math=\dfrac{dI}{dt}=\alpha SI-\beta I"><br/>
-<img src="https://render.githubusercontent.com/render/math?math=\dfrac{dR}{dt}=\beta I">
+<img src="https://tex.cheminfo.org/?tex=%5Cbegin%7Baligned%7D%0A%5Cfrac%7BdS%7D%7Bdt%7D%20%26%3D%20-%5Calpha%20SI%5C%5C%0A%5Cfrac%7BdI%7D%7Bdt%7D%20%26%3D%20%5Calpha%20SI%20-%20%5Cbeta%20I%5C%5C%0A%5Cfrac%7BdR%7D%7Bdt%7D%20%26%3D%5Cbeta%20I%5C%5C%0A%5Cend%7Baligned%7D%0A"/>
 </p>
