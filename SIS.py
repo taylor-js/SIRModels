@@ -9,7 +9,7 @@ ND=70
 TS=1.0
 INPUT = (1.0-I0, I0)
 
-def diff_eqs(x,t):  
+def SIS(x,t):  
 	'''The main set of equations'''
 	Y=np.zeros((2))
 	X = x    

@@ -13,7 +13,7 @@ E0=1e-4
 I0=1e-4
 INPUT = (S0, E0, I0)
 
-def diff_eqs(x,t):  
+def SEIR(x,t):  
 	'''The main set of equations'''
 	Y=np.zeros((3))
 	X = x    
